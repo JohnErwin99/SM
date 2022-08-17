@@ -677,8 +677,8 @@
         <!-- END Login portal section-->
 
         <!--Footer-->
-        <section>
-            <footer class="footer">
+        <section class="footer">
+            <footer class="container">
                 <div class="footer-column">
                     <img style="margin-left: 45px;" src="Images/Iristel_logo.png" /><br />
 &nbsp;<ul>
