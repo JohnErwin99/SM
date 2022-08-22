@@ -1,0 +1,421 @@
+﻿body {
+    /*background-color: green;*/
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x:hidden;
+    overflow-wrap:normal
+}
+/*NAVBAR*/
+.navbar-upper{
+    position: absolute;
+    right: 100px;
+}
+#navbarSupportedContent{
+    display:block;
+    position: absolute;
+    right: 100px;
+    max-width: 820px;
+    /*border: 1px solid #111;*/
+}
+.dropdown-toggle{
+    font-weight: 700;
+}
+            
+ .wrapper {
+    text-align: center;        
+}
+.wrapper ul {
+    display: inline-block; 
+    width: 100%;    
+    margin: 0;
+    margin-top:2em;
+    margin-bottom:2em;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;                
+    margin-left:27%;
+    margin-right:0;
+}
+.wrapper li {
+    position: inherit;
+    float: left;
+    padding-left:15px;
+    text-align: left;
+    height: 26px;
+    font-weight: 200;
+    background-color: #BBDEFB;
+    width:25%;
+                
+}
+            
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    float: left;
+    font-size: 15px;
+    font-weight: 100;
+    clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);        
+    z-index: -1;              
+    margin-right:-20px;
+}
+            
+ul.breadcrumb li:before{
+    z-index: -1;
+
+}
+
+/* Add a slash symbol (>) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    margin-left: 13px;
+    content:'>';
+    color: white;   
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+              
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+/*END Breadcrumbs*/
+
+/*Sigh-Up css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: inline-block;
+    /*width: 50%;*/ 
+    max-width: 80ch;
+    min-height: 100vh;
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+main img{
+    padding: 50px;
+    margin-top: 25px;
+}
+main ul{
+    list-style: none;
+    max-width: 440px;
+    display: block;
+}
+main ul > li {
+    clear: left;
+    padding: .7rem 1em;
+    font-weight: 400;
+}
+           
+main ul > li:before{
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+    float: left;
+    margin-left: .5rem;
+    margin-right: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url("https://www.svgrepo.com/show/322017/check-mark.svg");
+    background-size: cover;
+    background-position: center;
+}
+header,form >p:first-of-type,input[type=submit]{
+    color: white;
+}
+form,header{
+    flex-basis:0;
+    flex-grow: 1;
+}
+h1{
+    font-size: 60px;
+
+}
+a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+form >p:first-of-type{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+form div, form >p:first-of-type{
+    /*box-shadow: 0px 7px 0px rgba(0,0,0,0.2);*/
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 1rem 0 .5rem 0;
+    padding: 1rem;
+    border: solid 1px gray;
+    border-radius: calc(var(--radius)/2);
+    font-weight: 700;
+    outline: none;
+    color: #B6B2B9;
+}
+input[type=submit]{
+    width: 70%;
+    margin: auto;
+    background-color: #0158B8;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 20px;
+    /*box-shadow: inset 0px -4px rgba(0,0,0,0.1);*/
+    transition: all .2s ease-in-out;
+}
+input[type=submit]:hover{
+    box-shadow: inset 0px -6px rgba(0,0,0,0.1);
+}
+.attribution,#formPad p:last-of-type,.errMsg {
+    font-size: x-small;
+    text-align: center;
+}
+.errMsg{
+    text-align: right;
+    color: red;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+.attribution a {
+    color: blue;
+}
+#formPad{
+    background-color: #F6F6F6;
+    border-radius: 0px;
+    margin-top: -2.3rem;
+    padding: 2.5rem;
+}  
+#formPad h4{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+    /*END Sigh-Up */
+
+/*Flexbox*/
+.container {
+    background: white;
+}
+.one {
+    color: black;
+    background: white;
+    float: left;
+}
+.one h1, h2, h3, h4, p{
+    color: black;
+}
+.two {
+    margin-top: 5%;
+    height: 200px;
+}  
+.container_foot {
+    width: 100%;
+    height: 200px;
+    background: white;
+    margin: auto;
+    padding: 10px;
+}
+/*END Flexbox Sign up*/
+.container .nav-con{
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.nav-con a{
+    color:#B6B2B9;
+            
+}
+.nav-con .active{
+    color: #333;
+}
+/*Trial Header*/
+.TrialHeader{
+    text-align: center;
+    background-color: #EDEDED;
+    color: #111;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.TrialHeader p{
+    color: #A6A5A4;
+}
+/*END Trial Header*/
+
+/*Login section*/
+.containerPortal {
+    height: 300px;
+    position: relative;
+}
+
+.vertical-center-portal {
+    margin: 0;
+    position: absolute;
+    right: 10%;
+    -ms-transform: translateY(-150%);
+    transform: translateY(-150%);
+    vertical-align:middle;
+                
+}
+.vertical-center-portal button {
+    width: 350px;
+    height: 50px;
+    border: 5px solid #0158B8;
+    border-radius: 10px;
+}
+#swift_name{
+    margin-top: 3em;
+    margin-left: 8em;
+}
+/*END Login section*/
+
+/*Footer*/
+.footer{
+	background-color: #0158B8;
+    padding: 70px 0;
+    margin-top: ;
+    height: 500px;
+    width: 100%;
+}
+.footer-column {
+    background-color: #0158B8;
+    width: 25%;
+    float: left;
+}
+
+.footer-column img{
+    margin-top: -25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    height: 50px;
+}
+.footer-column h4{
+   	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+    margin-left: 10px;
+	font-weight: 500;
+	position: relative;
+    top: 0px;
+    left: 12px;
+    height: 23px;
+    width: 446px;
+}
+.footer-column ul{
+    list-style: none;
+}
+.footer-column li{
+   	font-size: 14px;
+    color: #ffffff;
+}
+.footer-column h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-column ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-column ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-column ul li a b{
+    font-weight: bold !important;
+    font-size: 16px;
+}
+.footer-column ul li a b span{
+    font-weight: bold !important;
+    font-size: 10px !important;
+}
+.footer-column ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-column .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-column .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/*END Footer*/
+        
+
+/*RESPONSIVE CSS*/ 
+/*Sign up*/
+    @media screen and (max-width:660px) {
+    body{             
+    }
+    main{
+        flex-direction: column;
+    }
+    header{text-align: center;
+    }
+    .vertical-center-portal{
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*responsive footer*/
+@media(max-width: 767px){
+    .footer-column{
+    width: 50%;
+    margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-column{
+    width: 100%;
+    }
+}
