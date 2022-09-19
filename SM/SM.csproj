@@ -236,6 +236,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Css\Sign_Up3.css" />
+    <Content Include="Css\Sign_Up5.css" />
+    <Content Include="Css\Sign_Up6.css" />
+    <Content Include="Css\Sign_Up2.css" />
+    <Content Include="Css\Sign_Up.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -245,10 +250,26 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\App Integration.png" />
+    <Content Include="Images\beautiful-business-woman-is-talking-mobile-phone-while-sitting-back-seat-car.jpg" />
+    <Content Include="Images\beautiful-business-woman-mother-suit-with-small-child-her-arms-against-background-her-house-black-car-goes-work.jpg" />
+    <Content Include="Images\beautiful-senior-woman-home-talking-cell-phone.jpg" />
+    <Content Include="Images\cheerful-family-kitchen.jpg" />
+    <Content Include="Images\closeup-woman-using-mobile-phone-talking-speaker-while-driving-car.jpg" />
+    <Content Include="Images\female-nanny-drive-car-deliver-baby-boy-is-sitting-car-seat.jpg" />
+    <Content Include="Images\Free internet phone calls.gif" />
+    <Content Include="Images\germany-hamburg-two-business-people-talking-businessman-background-using-scooter.jpg" />
     <Content Include="Images\Iristel_logo.png" />
+    <Content Include="Images\man-working-laptop-inside-his-car.jpg" />
+    <Content Include="Images\phone-addicted-family-using-their-phones-couch.jpg" />
+    <Content Include="Images\promo.mp4" />
+    <Content Include="Images\side-view-shot-man-s-hands-using-smart-phone-interior.jpg" />
+    <Content Include="Images\smart_call.png" />
+    <Content Include="Images\smart_number.png" />
     <Content Include="Images\Swift_logo.PNG" />
     <Content Include="Images\Swift_gadgets.png" />
     <Content Include="Images\swift_name.png" />
+    <Content Include="Images\integration.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -284,6 +305,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="SignUp.aspx" />
+    <Content Include="SignUp_2.aspx" />
+    <Content Include="SignUp_3.aspx" />
+    <Content Include="SignUp_4.aspx" />
+    <Content Include="SignUp_5.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Videos\demo_swift.gif" />
     <Content Include="Videos\demo_swift.mp4" />
@@ -446,6 +471,34 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp_2.aspx.cs">
+      <DependentUpon>SignUp_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp_2.aspx.designer.cs">
+      <DependentUpon>SignUp_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp_3.aspx.cs">
+      <DependentUpon>SignUp_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp_3.aspx.designer.cs">
+      <DependentUpon>SignUp_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp_4.aspx.cs">
+      <DependentUpon>SignUp_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp_4.aspx.designer.cs">
+      <DependentUpon>SignUp_4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp_5.aspx.cs">
+      <DependentUpon>SignUp_5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp_5.aspx.designer.cs">
+      <DependentUpon>SignUp_5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
